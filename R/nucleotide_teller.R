@@ -1,3 +1,14 @@
+#' Nucleotide teller
+#'
+#' @param x A character vector, only consisting of AGC(T/U)
+#' @param nucleotide What nucleotide to count
+#'
+#' @return An integer
+#' @export
+#'
+#' @examples
+#' x <- "AAA GGG TTT"
+#' nucleotide_teller(x, nucleotide = "A")
 nucleotide_teller <- function(x, nucleotide) {
   # Validate nucleotide input
   nucleotide <- tolower(as.character(nucleotide))  # Ensure the nucleotide is in lowercase
