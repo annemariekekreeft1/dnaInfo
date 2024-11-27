@@ -2,7 +2,7 @@
 #'
 #' @param x A character vector, only consisting of AGC(T/U)
 #'
-#' @return
+#' @return A character vector
 #' @export
 #'
 #' @examples

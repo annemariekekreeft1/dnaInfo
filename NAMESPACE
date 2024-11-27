@@ -2,3 +2,4 @@
 
 export(GCcontent)
 export(nucleotide_teller)
+export(restriction_site)

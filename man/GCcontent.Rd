@@ -9,6 +9,9 @@ GCcontent(x)
 \arguments{
 \item{x}{A character vector, only consisting of AGC(T/U)}
 }
+\value{
+A character vector
+}
 \description{
 Calculating GC content
 }
