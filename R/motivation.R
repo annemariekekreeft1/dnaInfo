@@ -1,6 +1,6 @@
 #' Motivation
 #'
-#' @return
+#' @return A character vector
 #' @export
 #'
 #' @examples motivation()

@@ -2,7 +2,7 @@
 title: "dnaInfo"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{my-vignette}
+  %\VignetteIndexEntry{dnaInfo}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -55,8 +55,8 @@ y<- "AGGC"  of y<- c("AGGC", "GCAG")<br>
 \#      Start End
 \#start     4   7  
   
-``motivation`` geeft een motiverende spreuk: 
-motivation()
-# [1] "You're doing amazing sweetie"  
+``motivation`` geeft een motiverende spreuk: <br>
+motivation()<br>
+# [1] "You're doing amazing sweetie"  <br>
   
 bron: https://vm.tiktok.com/ZNe3n36gv/

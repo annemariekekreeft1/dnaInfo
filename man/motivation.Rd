@@ -6,6 +6,9 @@
 \usage{
 motivation()
 }
+\value{
+A character vector
+}
 \description{
 Motivation
 }
