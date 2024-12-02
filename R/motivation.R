@@ -5,5 +5,5 @@
 #'
 #' @examples motivation()
 motivation<- function(){
-  print("You're doing great sweetie")
+  print("You're doing amazing sweetie")
 }

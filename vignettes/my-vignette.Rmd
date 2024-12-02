@@ -1,0 +1,62 @@
+---
+title: "dnaInfo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(dnaInfo)
+```
+
+dnaInfo bevat 4 functies:<br>
+1. ``GCcontent`` <br>
+2. ``nucleotide_teller`` <br>
+3. ``restriction_sites`` <br>
+4. ``motivation`` <br>
+
+``GCcontent`` berekent de GC content in een DNA streng:<br>
+<br>
+x <- "CAGGCAGCT" <br>
+**GCcontent(x)**<br>
+\# [1] "66.67%" <br>
+<br>
+De output van deze functie weergeeft de GC content weer in %.<br>
+<br>
+``nucleotide_teller`` telt een specifieke nucleotide in een DNA streng:<br>
+<br>
+**nucleotide_teller(x, nucleotide = "A")** <br> 
+<br>
+\# [1] 2
+
+``restriction_sites`` geeft het voorkomen van één of meerdere restrictiesites in een DNA streng weer:<br>  
+y<- "AGGC"  of y<- c("AGGC", "GCAG")<br>
+<br>
+**restriction_sites(x, y)**<br>
+<br>
+\#  Restriction site: AGGC <br>
+\# Count of AGGC in DNA sequence: 1 <br>
+\# Positions (start, end):<br>
+\#      Start End 
+\# start     2   5
+  
+\# Restriction site: GCAG 
+\# Count of GCAG in DNA sequence: 1 
+\# Positions (start, end):
+\#      Start End
+\#start     4   7  
+  
+``motivation`` geeft een motiverende spreuk: 
+motivation()
+# [1] "You're doing amazing sweetie"  
+  
+bron: https://vm.tiktok.com/ZNe3n36gv/
